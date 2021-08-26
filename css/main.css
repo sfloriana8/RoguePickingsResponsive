@@ -1,0 +1,177 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1em;
+
+}
+
+.container{
+	max-width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90%;
+	flex-flow: row wrap;
+}
+
+h1,
+h2,
+h3 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+
+}
+h1 {
+	font-size: 1.875em;
+}
+
+h2 {
+	font-size: 1.125em;
+}
+h3 {
+	font-size: .8em;
+}
+
+p {
+
+	font-size: .9em;
+	line-height: 1.313em;
+  padding: 0 1.875em;
+}
+
+/*The widths are in a percentage!*/
+header {
+	border-bottom: 3px solid #77a466;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	flex-flow: row wrap;
+}
+
+header h1 {
+	margin: 0;
+	padding: 2.375em 1.25em 1em 1em;
+	border-bottom: 3px solid #77a466;
+	width: 100%;
+}
+
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	padding: 1.25em 0;
+	width: 100%;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .875em;
+	padding: 0 .625em;
+	list-style: none;
+	line-height: 1.5rem;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+.top-section,
+.bottom-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+
+
+}
+
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title h2 {
+	text-align: left;
+	padding: .313em 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 1em;
+	line-height: 1.563;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 100%;
+	border-top: 1px solid #eee;
+}
+
+.section-one h3 {
+	padding: .625em 0;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.section-two h3,
+.section-three h3 {
+	padding: .625em 1.875em;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+
+.menu li {
+	padding: .625em 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 1.313em;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 1em;
+}
+
+/*The widths are in a percentage!*/
+footer {
+	border-top: 3px solid #eee;
+	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: .875em;
+}
